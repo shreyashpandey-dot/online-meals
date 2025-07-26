@@ -1,0 +1,103 @@
+/* css reset */
+
+/* navigation bar */
+
+#navbar {
+   display: flex;
+   flex-direction: column;
+}
+
+#navbar img {
+   height: 30px;
+   margin-top: 4px;
+   padding: 0px;
+}
+
+#navbar .list li a {
+   font-size: 13px;
+   margin: 0px;
+}
+
+/* home section */
+
+ #home{
+   height: 400px;
+ }
+
+#home .btn {
+   font-size: 20px;
+
+}
+
+#home p {
+   text-align: center;
+}
+
+/* service section*/
+
+ #servicecontainer{
+   height: 920px;
+ }
+
+.service {
+   display: flex;
+   flex-direction: column;
+}
+
+#servicecontainer h1 {
+   
+   padding: 8px 0px;
+}
+
+#servicecontainer .box {
+   height: 150px;
+   width: 300px;
+   margin: 2px;
+}
+
+#servicecontainer .box img {
+   height: 60px;
+   padding: 2px;
+   margin: 0px auto;
+
+}
+
+#servicecontainer .box h1 {
+
+   padding: 2px;
+   margin: 0px;
+
+}
+
+#servicecontainer .box p {
+   font-size: 10px;
+   padding: 2px;
+   margin: 0px;
+}
+
+
+/* client section  */
+
+ 
+
+.client {
+   flex-wrap: wrap;
+}
+
+.client img {
+   height: 80px;
+   
+
+}
+
+/* contact section */
+
+/* utility classes */
+
+.h-primary {
+   font-size: 35px;
+}
+
+.h-secondary {
+   font-size: 20px;
+}
